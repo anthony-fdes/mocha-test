@@ -19,7 +19,7 @@ describe('Google Search', function(){
 		driver = new Builder()
 		.usingHttpAgent(HttpAgent)
 		.withCapabilities(capabilities)
-		.usingServer('http://192.168.1.210:13096/wd/hub')
+		.usingServer('http://localhost:4444/wd/hub')
 		.build();
 
 	});
