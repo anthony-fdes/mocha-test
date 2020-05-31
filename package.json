@@ -1,0 +1,14 @@
+{
+  "name": "mocha-prac",
+  "version": "1.0.0",
+  "description": "Practice for Mocha Tests",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^7.2.0"
+  }
+}
